@@ -1,0 +1,70 @@
+@font-face{
+	font-family: 'newPolice';
+	src:	url('./1942report_regular_macroman/1942-webfont.eot') format('eot'),
+			url('./1942report_regular_macroman/1942-webfont.svg') format('svg'),
+			url('./1942report_regular_macroman/1942-webfont.ttf') format('ttf'),
+			url('./1942report_regular_macroman/1942-webfont.woff') format('woff');
+}
+
+
+body {
+	background-image: url(https://i1.wp.com/talents2kin.com/wp-content/uploads/youssoupha-cover-ngrtd-1024x1024.jpg?resize=1024%2C658);
+	font-size: 1.2em;
+	display: flex;
+}
+
+#lisere {
+	width: 150px;
+	height: auto;
+	box-shadow: 10px 5px 6px #581845;
+	background-color: #581845;
+}
+
+#cv{
+	display: flex;
+	justify-content: space-around;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+header img {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	left: 25%;
+	top: 10px;
+}
+
+header h1 {
+	color: rgb(140,95,12);
+	font-size: 3em;
+	font-family: newPolice;
+	text-align: center;
+}
+.citation {
+	color: #08088A;
+	text-align: center;
+}
+
+section {
+	width: 30%;
+}
+
+h2{
+	color: purple;
+}
+p {
+	color: #F70307;
+}
+
+li{
+	color: #F70307; 
+}
+
+#Formation {
+	border: 3px purple dotted;
+	text-shadow: 2px 2px 40px black;
+}
