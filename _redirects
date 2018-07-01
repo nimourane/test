@@ -1,0 +1,2 @@
+# Rediriger le sous-domaine Netlify par défaut vers le domaine principal
+http://potcommit.netlify.com/* http://candyvid.ooo/:splat 301!
